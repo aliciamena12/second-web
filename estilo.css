@@ -1,0 +1,94 @@
+.mainlogo{
+    margin-top: 5px;
+    margin-left: 100px;
+
+}
+body{
+    margin: 0;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, 'sans-serif';
+}
+#fondo{
+    background-color: #0f0b0a;
+    height: 400px;
+    color: #ffffff;   
+}
+nav{
+    float: right;
+    margin-top: 30px;
+    margin-right: 60px;
+
+}
+nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px;
+}
+nav a:hover {
+    color: #65b232;
+}
+section{
+    margin-top: 60px;
+    text-align: center;
+}
+section h1{
+    font-family: 'Segoe UI Black';
+    font-weight: bold;
+    font-size: 60px;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+section h2{
+    font-size: 20px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    
+}
+section span{
+    color: #65b232;
+}
+#getnow{
+    background-color: #65b232;
+    color: #ffffff;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border-radius: 2px;
+}
+#livedemo{
+    background-color: #ffffff;
+    color: #272727;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    border-radius: 2px;
+}
+aside{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px;
+    font-size: 12px;
+    width: 70%;
+    overflow-wrap: break-word;
+    margin-left: 140px;
+}
+aside article{
+    padding: 10px;
+}
+aside .minisubtitle{
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, 'sans-serif';
+    font-size: 16px;
+}
+aside img{
+    display: block;
+    padding-right: 80px;
+    margin: auto;
+}
